@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
@@ -103,4 +103,5 @@ st.markdown("---")
 st.markdown(
     "<p style='text-align:center; color:gray;'>🚀 Xây dựng bởi OpenRouter API + Streamlit | Made with ❤️</p>",
     unsafe_allow_html=True
+
 )
