@@ -68,7 +68,7 @@ with col4:
     if st.button("🔑 Từ khóa"):
         action = "Trích xuất các từ khóa chính từ nội dung sau đây:"
 with col5:
-    if st.button("🐍 Sinh mã Python"):
+    if st.button("🐍 Tạo mã Python"):
         action = "Sinh mã Python cho yêu cầu sau đây:"
 
 st.markdown("---")
@@ -101,7 +101,8 @@ elif action and not user_input.strip():
 # -----------------------------
 st.markdown("---")
 st.markdown(
-    "<p style='text-align:center; color:gray;'>🚀 Xây dựng bởi OpenRouter API + Streamlit | Made with ❤️</p>",
+    "<p style='text-align:center; color:gray;'>🚀 Xây dựng bởi OpenRouter API + Streamlit | Mô hình Meta: Llama 3.3 8B Instruct</p>",
     unsafe_allow_html=True
 
 )
+
